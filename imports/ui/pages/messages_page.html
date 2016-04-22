@@ -1,0 +1,4 @@
+<template name="messagesPage">
+	{{> messages messages=messagesCursor}}
+	<div>{{> React component=NewMessage sendHandler=sendHandler}}</div>
+</template>
